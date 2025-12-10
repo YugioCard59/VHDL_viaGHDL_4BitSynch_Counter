@@ -1,7 +1,0 @@
-v 4
-file . "counter_tb.vhd" "f59c2e3d8c5683812ccdfed9cd77eb0d6297308b" "20251210161850.094":
-  entity counter_tb at 2( 70) + 0 on 13;
-  architecture test of counter_tb at 9( 204) + 0 on 14;
-file . "counter.vhd" "96733eb773fe8ef8320d3a34de2bcfb84b430ad6" "20251210161539.064":
-  entity counter at 4( 250) + 0 on 11;
-  architecture behavioral of counter at 18( 818) + 0 on 12;

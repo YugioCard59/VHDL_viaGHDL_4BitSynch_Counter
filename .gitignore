@@ -4,6 +4,17 @@
 *.o     # Object files (Generated during linking)
 *.vcd   # waveform files
 
+# More precise locations
+src/*.cf
+src/*.ghw
+src/*.o
+src/*.vcd
+
+**/*.cf
+**/*.ghw
+**/*.o
+**/*.vcd
+
 # Ignore temporary system/editor files
 .DS_Store   # macOS system files
 Thumbs.db   # Windows thumbnail cache
