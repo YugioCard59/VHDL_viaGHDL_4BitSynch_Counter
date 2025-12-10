@@ -1,6 +1,6 @@
 # 4-bit Synchronous Binary Counter using VHDL
 
-##  4-bit Synchronous Binary Counter VHDL Project Overview
+##  4-bit Synchronous Binary Counter VHDL Project Overview Note: AI was used to assist with adherence to syntax rules for VHDL
 
 This project is an exercise in utilizing foundational skills in synchronous digital logic design using VHDL. Specifically GHDL is used to code. 
 
@@ -22,6 +22,10 @@ The circuit implements a 4-bit register that counts sequentially from 0 (`0000`)
 The circuit was compiled with **GHDL** and simulated for 200 ns.
 
 **Observed Behavior:** The output signal `Q` changes values only on the positive transion of the `CLK` signal, and is immediately forced to return to `0000` when `RST` is asserted high. Waveform given by GTKWave.
+
+**Example of GTKWave Waveform for T-FF based register for counter that is transformed as D-FF register for the counter by GHDL
+
+![4-bit Synchronous Counter Waveform Example](https://github.com/YugioCard59/VHDL_viaGHDL_4BitSynch_Counter/blob/main/images/T_FF_implementedasD_FFbyVHDL.png?raw=true)
 
 ## Tools Used
 * **VHDL-2002/2008 Standard**
